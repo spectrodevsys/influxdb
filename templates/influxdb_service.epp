@@ -15,7 +15,7 @@ ExecStart=/etc/influxdb/scripts/influxd-systemd-start.sh
 KillMode=control-group
 Restart=on-failure
 Type=forking
-PIDFile=/var/lib/influxdb/influxd.pid
+PIDFile=~/influxd.pid
 
 [Install]
 WantedBy=multi-user.target
